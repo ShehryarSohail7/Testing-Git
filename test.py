@@ -12,6 +12,7 @@ print("new")
 
 # git branch
 # git checkout -b "label branch" (creates)(this also takes you to that branch)
+# git checkout "label branch" (this takes you to that branch)
 # git merge <branch label>
 #                   e.g: git checkout main (moving between branches)
 
@@ -21,6 +22,10 @@ print("new")
 # Connect remotely to repositories
 # git remote add origin "<repository link>" (first connect repository)
 # git push origin <branch name> OR git push origin main (main branch) : (then push)
+#            First Switch to that branch and then push
 
 # How to download the repository locally to work on (in window terminal):
 # git clone <repository link>
+
+# git pull origin (to bring changes made in remote main of, after pushing a branch and merging it,
+# back to local so that you are in sync and start working on updated code locally)
