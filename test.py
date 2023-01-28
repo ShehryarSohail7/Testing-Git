@@ -8,7 +8,7 @@ print("new")
 # git status
 # git reset --hard <hash>
 
-# git push (for remote bcz my github is connected)
+# git push (for remote bcz my github repository is connected)
 
 # git branch
 # git checkout -b "label branch" (creates)(this also takes you to that branch)
