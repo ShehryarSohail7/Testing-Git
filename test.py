@@ -21,7 +21,9 @@ print("new")
 
 # Connect remotely to repositories
 # git remote add origin "<repository link>" (first connect repository)
-# git push origin <branch name> OR git push origin main (main branch) : (then push)
+# git push origin <branch name> OR
+#                   git push origin main (main branch) : (then push)
+#                   git push origin master (master branch)
 #            First Switch to that branch and then push
 
 # How to download the repository locally to work on (in window terminal):
