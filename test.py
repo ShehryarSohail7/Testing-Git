@@ -17,3 +17,10 @@ print("new")
 
 # merge (the branch that you want to merge into; first switch to that branch and then perform merge)
 # git merge <branch label>
+
+# Connect remotely to repositories
+# git remote add origin "<repository link>" (first connect repository)
+# git push origin <branch name> OR git push origin main (main branch) : (then push)
+
+# How to download the repository locally to work on (in window terminal):
+# git clone <repository link>
